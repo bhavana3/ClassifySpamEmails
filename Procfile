@@ -1,1 +1,1 @@
-web: python classify_emails.py
+web: gunicorn app:classify_emails
